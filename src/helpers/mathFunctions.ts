@@ -1,4 +1,4 @@
-import { Point2D, PointPolar, Point3D, PointSpherical } from "./types";
+import { Point2D, PointPolar, Point3D, PointSpherical } from "../types";
 
 export function cartesianToPolar(point: Point2D): PointPolar {
   const { x, y } = point;

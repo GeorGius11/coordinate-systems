@@ -1,4 +1,4 @@
-import { trackFunctionTime } from "./helper";
+import { trackFunctionTime } from "./helpers/helper";
 import {
   generatePointPairs2D,
   generatePointPairs3D,
@@ -10,7 +10,7 @@ import {
   distanceSpherical,
   polarToCartesian,
   sphericalToCartesian,
-} from "./mathFunctions";
+} from "./helpers/mathFunctions";
 import { Point2D, PointPolar, Point3D, PointSpherical } from "./types";
 
 const numPairs = 1000000;
