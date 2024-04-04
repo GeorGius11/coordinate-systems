@@ -1,5 +1,3 @@
-# Dependency directories
 node_modules/
-
-# Compilation output
 dist/
+package-lock.json
